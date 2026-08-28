@@ -1,4 +1,4 @@
-// ==============================
+// ==============================
 // MUSIC
 // ==============================
 
@@ -6,12 +6,19 @@ const music = document.getElementById("bgMusic");
 
 music.currentTime = 60;
 
-document.addEventListener("click", function startMusic() {
+document.addEventListener("click", function startMusic(event) {
+
+    // Open Surprise button वर click असेल तर music सुरू करू नको
+    if (event.target.closest("#surpriseBtn")) {
+        return;
+    }
+
     music.play().catch(function () {
         console.log("Music blocked");
     });
 
     document.removeEventListener("click", startMusic);
+
 });
 
 // ===============================
