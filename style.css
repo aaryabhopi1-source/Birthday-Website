@@ -261,3 +261,18 @@ font-size:15px;
 .slider img{
     width:90% !important;
 }
+.hero{
+    padding:30px 15px !important;
+}
+
+.gallery{
+    padding:30px 15px !important;
+}
+
+.gallery h2{
+    margin-bottom:10px !important;
+}
+
+.message{
+    padding:30px 15px !important;
+}
