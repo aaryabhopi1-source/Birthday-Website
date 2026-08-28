@@ -221,12 +221,12 @@ font-size:15px;
 @media (max-width:768px){
 
     .hero{
-        padding:5px 5px !important;
+        padding:1px 1px !important;
     }
 
     .hero h1{
         font-size:28px !important;
-        margin-bottom:5px !important;
+        margin-bottom:1px !important;
     }
 
     #countdown{
@@ -235,7 +235,7 @@ font-size:15px;
     }
 
     .gallery{
-        padding:5px 5px !important;
+        padding:1px 1px !important;
     }
 
     .gallery h2{
@@ -248,7 +248,7 @@ font-size:15px;
     }
 
     .message{
-        padding:5px 5px !important;
+        padding:1px 1px !important;
     }
 
     .message h2{
