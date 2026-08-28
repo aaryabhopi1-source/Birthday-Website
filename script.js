@@ -30,11 +30,42 @@ document.addEventListener("click", function startMusic() {
 // ===============================
 
 function openSurprise() {
+    const message = `My Dear Panu,
+Every moment with you is special. ❤️
+Your smile makes every day brighter.
+On your birthday, I wish you endless happiness,
+good health, success, and lots of love.
+🎂 Once Again! Happy Birthday ❤️
+I Love You Forever. 💖`;
+
+function typeMessage() {
+    const textBox = document.getElementById("typingText");
+    textBox.innerHTML = "";
+
+    let i = 0;
+
+    function type() {
+        if (i < message.length) {
+            if (message[i] === "\n") {
+                textBox.innerHTML += "<br>";
+            } else {
+                textBox.innerHTML += message[i];
+            }
+
+            i++;
+            setTimeout(type, 40);
+        }
+    }
+
+    type();
+}
+    
     document.getElementById("surprise").style.display = "flex";
 
     music.play().catch(function() {
         console.log("Music could not start");
     });
+    typeMessage();
 }
 
 function closeSurprise() {
