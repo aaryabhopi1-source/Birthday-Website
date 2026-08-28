@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Panu ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Effects -->
+    <div id="effects"></div>
+    
+    <canvas id="fireworks"></canvas>
+
+    <!-- Music -->
+    <audio id="bgMusic" autoplay loop>
+        <source src="music.mpeg" type="audio/mpeg">
+    </audio>
+
+    <button id="musicBtn">🎵 Play Music</button>
+
+
+    <!-- Birthday Hero -->
+    <div class="hero">
+
+        <h1>🎂 Happy Birthday Panu ❤️</h1>
+
+        <h2>18 September 2026</h2>
+
+        <div id="countdown">
+            Loading...
+        </div>
+
+        <button id="surpriseBtn" onclick="openSurprise()">
+            🎁 Open Surprise
+        </button>
+    </div>
+
+
+    <!-- Photo Gallery -->
+    <section class="gallery">
+
+        <h2>📸 Beautiful Memories</h2>
+
+        <div class="slider">
+
+            <img
+                id="sliderImage"
+                src="Birthday photos/1.jpeg"
+                alt="Beautiful Memory"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- Birthday Message -->
+    <section class="message">
+
+        <h2>💖 For You</h2>
+
+        <p>
+            May this birthday bring endless happiness,
+            success, peace, love and unforgettable memories.
+            <br><br>
+            Stay happy forever. ❤️
+        </p>
+
+    </section>
+
+
+    <!-- Surprise Popup -->
+    <div id="surprise" class="surprise">
+
+        <div class="card">
+
+            <h1>🎉 Happy Birthday Panu ❤️</h1>
+
+            <p>
+                My Dear Panu,<br><br>
+
+                Every moment with you is special. ❤️<br>
+                Your smile makes every day brighter.<br><br>
+
+                On your birthday, I wish you endless happiness,
+                good health, success, and lots of love.<br><br>
+
+                🎂 Once Again! Happy Birthday ❤️<br><br>
+
+                I Love You Forever. 💖
+            </p>
+
+            <button onclick="document.getElementById('surprise').style.display='none';">
+                Close 💗
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
