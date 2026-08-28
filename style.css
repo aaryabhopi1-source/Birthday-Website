@@ -115,11 +115,11 @@ font-size:18px;
 }
 
 .card{
-    width:80%;
+    width:85%;
     max-width:600px;
     background:white;
     color:#222;
-    padding:30px;
+    padding:20px;
     border-radius:20px;
     text-align:center;
     box-shadow:0 0 25px gold;
@@ -127,22 +127,23 @@ font-size:18px;
 
 .card h1{
     color:gold;
-    margin-bottom:20px;
+    margin-bottom:15px;
+    font-size:22px;
 }
 
 .card p{
-    font-size:20px;
-    line-height:1.8;
+    font-size:14px;
+    line-height:1.6;
 }
 
 .card button{
-    margin-top:20px;
-    padding:12px 30px;
+    margin-top:15px;
+    padding:10px 25px;
     border:none;
     border-radius:30px;
     background:gold;
     color:black;
-    font-size:18px;
+    font-size:15px;
     cursor:pointer;
 }
 #effects{
