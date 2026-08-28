@@ -217,3 +217,26 @@ font-size:18px;
 #surprise {
     z-index: 9999;
 }
+@media (max-width: 600px) {
+    .surprise .card {
+        width: 90%;
+        max-width: 330px;
+        padding: 18px;
+        max-height: 85vh;
+        overflow-y: auto;
+    }
+
+    .surprise .card h3 {
+        font-size: 20px;
+    }
+
+    .surprise .card p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .surprise .card button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
