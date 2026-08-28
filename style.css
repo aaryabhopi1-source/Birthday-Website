@@ -74,14 +74,14 @@ padding:60px 25px;
 }
 
 .message h2{
-font-size:26px;
+font-size:22px;
 color:#ffd700;
 margin-bottom:20px;
 }
 
 .message p{
-font-size:20px;
-line-height:1.8;
+font-size:15px;
+line-height:1.4;
 max-width:850px;
 margin:auto;
 }
