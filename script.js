@@ -1,22 +1,11 @@
-// ===============================
+// ==============================
 // MUSIC
-// ===============================
+// ==============================
 
 const music = document.getElementById("bgMusic");
-const musicBtn = document.getElementById("musicBtn");
 
 music.currentTime = 60;
 
-musicBtn.addEventListener("click", function () {
-    music.play();
-
-    musicBtn.innerHTML = "🎵 Music Playing ❤️";
-});
-window.addEventListener("load", function () {
-    music.play().catch(function () {
-        console.log("Chrome blocked autoplay");
-    });
-});
 document.addEventListener("click", function startMusic() {
     music.play().catch(function () {
         console.log("Music blocked");
