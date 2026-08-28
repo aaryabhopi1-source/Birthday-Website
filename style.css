@@ -241,3 +241,15 @@ font-size:15px;
         padding: 10px 20px;
     }
 }
+@media (max-width:768px){
+
+    .message h2{
+        font-size:22px !important;
+    }
+
+    .message p{
+        font-size:12px !important;
+        line-height:1.4 !important;
+    }
+
+}
